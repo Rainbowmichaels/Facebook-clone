@@ -1,0 +1,88 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgba(11, 58, 160, 0.1);
+  margin: 0;
+  padding: 0;
+  padding: 10% 0;
+}
+#body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Box {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: white;
+  padding: 14px;
+  border-radius: 5px;
+  width: 100%;
+}
+div input {
+  border: 1.5px solid #ccc;
+  padding: 15px;
+  width: 90%;
+  border-radius: 3px;
+}
+/* div button{
+    border: 1.5px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+} */
+#login {
+  padding: 10px;
+  background-color: rgba(40, 110, 241, 0.979);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+}
+#login:hover {
+  background-color: rgba(25, 85, 196, 0.87);
+}
+#aside {
+  flex: 0.3p;
+  text-align: center;
+}
+#section {
+  flex: 0.4;
+  align-items: center;
+}
+h1 {
+  color: rgba(4, 90, 250, 0.979);
+  font-size: 3.5rem;
+}
+h4 {
+  position: relative;
+  top: -30px;
+  font-size: 30px;
+  font-stretch: extra-condensed;
+}
+#create {
+  padding: 10px;
+  background-color: rgba(14, 189, 43, 0.979);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 50%;
+}
+#create:hover {
+  background-color: rgba(7, 218, 42, 0.979);
+}
+p a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+p {
+  margin-right: 10px;
+  padding-right: 5px;
+}
+.p {
+  text-align: center;
+  border: 1px none;
+  padding-left: 30px;
+}
